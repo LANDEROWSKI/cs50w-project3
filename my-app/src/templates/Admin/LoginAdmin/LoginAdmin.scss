@@ -4,11 +4,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #91e495, rgb(234, 234, 246) 74%);
+    background-image:url('https://png.pngtree.com/background/20230610/original/pngtree-kitchen-scene-is-shown-in-an-anime-style-picture-image_3069333.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    // background-image: linear-gradient(315deg, #91e495, rgb(234, 234, 246) 74%);
 
     &__content{
         background-color: white;
+        background-size: cover;
+        background-repeat: no-repeat;
         padding: 50px 50px;
         border-radius: 20px;
         width: 500px;
