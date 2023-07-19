@@ -3,7 +3,7 @@ import {Navigation} from './routes'
 
 export default function App() {
   return (
-    <div>
+    <div> 
       <Navigation />
     </div>
   )
