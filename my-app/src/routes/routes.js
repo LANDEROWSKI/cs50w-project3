@@ -7,8 +7,10 @@ const routes = [
     ...routesAdmin,
     ...routesClient,
     {
-        layout: "",
-        component: Error404
+        path: "*",
+        layout: BasicLayout,
+        component: Error404,
+        exact: true,
     },
 ];
 

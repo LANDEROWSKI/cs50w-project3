@@ -1,12 +1,11 @@
-import { Component } from "react";
 import {AdminLayout} from "../layouts"
-import { LoginAdmin } from '../templates/Admin';
+import { HomeAdmin } from '../templates/Admin';
 
 const routesAdmin = [
 {
     path: "/admin",
     layout: AdminLayout,
-    component: LoginAdmin,
+    component: HomeAdmin,
     exact: true,
 },
 ];
