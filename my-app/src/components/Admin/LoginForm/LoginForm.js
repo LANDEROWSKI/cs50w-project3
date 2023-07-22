@@ -5,8 +5,11 @@ import * as Yup from 'yup'
 import {toast} from 'react-toastify'
 import {loginApi} from '../../../api/user'
 import './LoginForm.scss'
+import {useAuth} from '../../../hooks'
 
 export  function LoginForm() {
+  const{login}= useAuth();
+  console.log(useAuth());
   const formik = useFormik({
       initialValues: initialValues(),
       validationSchema: Yup.object(validationSchema()),
@@ -16,6 +19,7 @@ export  function LoginForm() {
         try{
           const response = await loginApi(formValue)
           const {access} = response
+          login(access)
           console.log(access)
 
         }catch(error){

@@ -1,0 +1,26 @@
+.login-admin {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://png.pngtree.com/background/20230610/original/pngtree-kitchen-scene-is-shown-in-an-anime-style-picture-image_3069333.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.login-admin__content {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 50px;
+  border-radius: 20px;
+  width: 500px;
+  box-shadow: -7px -8px 70px -6px rgb(0, 0, 0);
+  -webkit-box-shadow: -7px -8px 70px -6px rgb(0, 0, 0);
+  -moz-box-shadow: -7px -8px 70px -6px rgb(0, 0, 0);
+}
+.login-admin__content > h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=LoginAdmin.css.map */
