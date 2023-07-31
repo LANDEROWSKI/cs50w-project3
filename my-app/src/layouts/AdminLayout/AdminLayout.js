@@ -16,15 +16,13 @@ export  function AdminLayout(props) {
     <div className='admin-layout'>
         <div className='admin-layout__menu'>
           <TopMenu />
+          </div>
 
           <div className='admin-layout__main-content'>
             <SideMenus>
               {children}
             </SideMenus>
           </div>
-
-        </div>
-
     </div>
   )
 }
