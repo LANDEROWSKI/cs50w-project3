@@ -15,7 +15,7 @@ export function AuthProvider(props){
 
     useEffect(() => {
         (async() =>{
-            const token = '...';
+            const token = getToken();
             if(token){
                 const me = await getMe(token)
                 setAuth({token, me})
